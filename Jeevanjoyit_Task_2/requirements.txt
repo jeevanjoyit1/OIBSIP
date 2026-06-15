@@ -1,0 +1,6 @@
+# No external dependencies required.
+# Uses Python standard libraries:
+# tkinter
+# json
+# os
+# datetime
