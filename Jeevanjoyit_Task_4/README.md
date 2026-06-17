@@ -1,37 +1,163 @@
-# Task 4 - Weather App
+# 🌦 Weather App
 
-A GUI weather app using Python, Tkinter, and the OpenWeatherMap API.
+A simple and beginner-friendly Weather Application built using **Python**, **Tkinter**, and the **OpenWeatherMap API**. This application allows users to enter a city name and view the current weather conditions, including temperature, humidity, and weather description.
 
-## Features
-- Search weather by city name
-- Shows temperature, humidity, wind speed, pressure, visibility
-- Weather condition emojis
-- Toggle between °C and °F
+---
 
-## Setup
+## 📌 Features
 
-### 1. Get a Free API Key
-- Go to https://openweathermap.org/api
-- Sign up for free
-- Copy your API key
+- 🌍 Search weather by city name
+- 🌡 Display current temperature in Celsius
+- 💧 Show humidity percentage
+- ☁ Display weather conditions
+- 🖥 User-friendly graphical interface using Tkinter
+- ⚠ Error handling for invalid city names and network issues
 
-### 2. Add Your API Key
+---
+
+## 🛠 Technologies Used
+
+- Python 3
+- Tkinter (GUI)
+- Requests Library
+- OpenWeatherMap API
+
+---
+
+## 📂 Project Structure
+
+```text
+WeatherApp/
+│
+├── main.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 📋 Requirements
+
+- Python 3.8 or higher
+- requests==2.31.0
+
+---
+
+## 📥 Installation
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/weather-app.git
+cd weather-app
+```
+
+### 2. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+Or install manually:
+
+```bash
+pip install requests==2.31.0
+```
+
+---
+
+## 🔑 Get an OpenWeatherMap API Key
+
+1. Visit https://openweathermap.org/api
+2. Create a free account.
+3. Generate an API key.
+4. Copy your API key.
+
+---
+
+## ⚙ Configuration
+
 Open `main.py` and replace:
 
 ```python
-API_KEY = "YOUR_API_KEY_HERE"
+API_KEY = "YOUR_API_KEY"
 ```
 
-with your actual key.
+with your actual API key:
 
-### 3. No extra libraries needed!
-Uses only Python's built-in `urllib` and `tkinter`.
+```python
+API_KEY = "your_actual_api_key"
+```
 
-## How to Run
+---
+
+## ▶ How to Run
+
+Run the application using:
 
 ```bash
 python main.py
 ```
 
-## Author
-Jeevan Joyit — Oasis Infobyte Internship 2026
+---
+
+## 🖥 Application Interface
+
+The application provides:
+
+- City Name Input Field
+- Get Weather Button
+- Weather Information Display Area
+- Error Messages for Invalid Inputs
+
+---
+
+## 📊 Sample Output
+
+```text
+City: Kochi
+
+Temperature: 29°C
+
+Humidity: 78%
+
+Condition: Broken Clouds
+```
+
+---
+
+## 🚀 Future Enhancements
+
+- Add weather icons
+- Display wind speed and pressure
+- Add hourly and daily forecasts
+- Support multiple temperature units (°C/°F)
+- Add automatic location detection
+- Improve UI design with themes
+
+---
+
+## 🎯 Learning Outcomes
+
+This project helps in understanding:
+
+- API Integration
+- JSON Data Parsing
+- GUI Development with Tkinter
+- Error Handling
+- User Input Validation
+- Python Programming Fundamentals
+
+---
+
+## 👨‍💻 Author
+
+**Jeevan Joyit**
+
+Oasis Infobyte Internship Project
+
+---
+
+## 📜 License
+
+This project is created for educational and internship purposes.
