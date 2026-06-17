@@ -147,10 +147,10 @@ OIBSIP
 
 | Project | Status |
 |----------|---------|
-| Voice Assistant | ⏳ |
-| BMI Calculator | ⏳ |
-| Password Generator | ⏳ |
-| Weather App | ⏳ |
+| Voice Assistant | ✅ |
+| BMI Calculator | ✅ |
+| Password Generator | ✅ |
+| Weather App | ✅ |
 | Chat Application | ⏳ |
 
 ---
