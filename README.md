@@ -151,7 +151,7 @@ OIBSIP
 | BMI Calculator | ✅ |
 | Password Generator | ✅ |
 | Weather App | ✅ |
-| Chat Application | ⏳ |
+| Chat Application | ✅ |
 
 ---
 
