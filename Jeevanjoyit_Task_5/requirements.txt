@@ -1,0 +1,5 @@
+# No external libraries required
+# Uses only Python built-in modules:
+# socket
+# threading
+# tkinter
